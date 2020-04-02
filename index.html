@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tabela</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+			border-collapse: collapse;
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+		th {
+			height: 50px;
+			border: 1px solid #dddddd;
+		}
+		
+		tr:nth-child(2) {
+			height: 60px;
+			font-size: 20px;
+		}
+		
+		tr:nth-child(9) {
+			height: 90px;
+		}
+		
+		td {
+			border: 1px solid #dddddd;
+		}
+		
+		td, th {
+            text-align: center;
+            padding: 12px 8px;
+        }        
+        th:nth-child(1) {
+            color: #60cb71;
+			border-top: 3px solid #60cb71;
+        }
+        
+		th:nth-child(2) {
+            color: #5f5dac;
+			border-top: 3px solid #5f5dac;
+        }
+        
+		th:nth-child(3) {
+            color: #1f81d3;
+			border-top: 3px solid #1f81d3;
+        }
+              
+        
+		tr:nth-child(2) td:nth-child(1) {
+			background-color: #60cb71;
+			color: white;
+		}
+		
+		tr:nth-child(2) td:nth-child(2) {
+			background-color: #5f5dac;
+			color: white;
+		}
+		
+		tr:nth-child(2) td:nth-child(3) {
+			background-color: #1f81d3;
+			color: white;
+		}
+		
+		tr:nth-child(9) td:nth-child(1) {
+			border-bottom: 3px solid #60cb71;
+			color: white;
+		}
+		
+		tr:nth-child(9) td:nth-child(2) {
+			border-bottom: 3px solid #5f5dac;
+			color: white;
+		}
+		
+		tr:nth-child(9) td:nth-child(3) {
+			border-bottom: 3px solid #1f81d3;
+			color: white;
+		}
+		
+		tr:nth-child(even) {
+			background-color: #f7f7f7;
+		}
+	   
+	   td:nth-child(1) {
+		border-collapse: collapse
+	   }
+	   
+		button{
+            border-radius: 3px;
+			padding: 7px 10px;
+        }
+		
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Basic</th>
+            <th>Standard</th>
+            <th>Premium</th>
+        </tr>
+        <tr>
+            <td style="font-size: 150%;">$99</td>
+            <td style="font-size: 150%;">$99</td>
+            <td style="font-size: 150%;">$99</td>
+        </tr>
+        <tr>
+            <td>Option</td>
+            <td>Option</td>
+            <td>Option</td>
+        </tr>
+        <tr>
+            <td>Option</td>
+            <td>Option</td>
+            <td>Option</td>
+        </tr>
+        <tr>
+            <td>Option</td>
+            <td>Option</td>
+            <td>Option</td>
+        </tr>
+        <tr>
+            <td>Option</td>
+            <td>Option</td>
+            <td>Option</td>
+        </tr>
+        <tr>
+            <td>Option</td>
+            <td>Option</td>
+            <td>Option</td>
+        </tr>
+        <tr>
+            <td>Option</td>
+            <td>Option</td>
+            <td>Option</td>
+        </tr>
+        <tr>
+            <td><button style="border: 2px solid #60cb71; background-color: white; color: #60cb71">Purchase</button></td>
+            <td><button style="border: 2px solid #5f5dac; background-color: white; color: #5f5dac">Purchase</button></td>
+            <td><button style="border: 2px solid #1f81d3; background-color: white; color: #1f81d3">Purchase</button></td>
+        </tr>
+    </table>
+</body>
+
+</html>
